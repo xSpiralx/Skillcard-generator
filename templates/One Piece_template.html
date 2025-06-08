@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8"/>
+</HEAD>
+<body style="background-color:#fefae0; font-family:'Segoe UI'; padding:20px; color:#000;">
+  <div style="border:3px solid #c0392b; border-radius:15px; padding:15px; background:#fff6e5;">
+    <h1 style="color:#c0392b;">{{ name }}</h1>
+    <h3>Type: {{ type }} | Rank: {{ rank }}</h3>
+    <iframe width="100%" height="250" src="{{ video }}" frameborder="0" allowfullscreen></iframe>
+    <h3>Description</h3>
+    <p>{{ description }}</p>
+    <h3>Stats</h3>
+    <ul>
+      <li>Strength: {{ strength }}</li>
+      <li>Speed: {{ speed }}</li>
+      <li>Agility: {{ agility }}</li>
+      <li>Endurance: {{ endurance }}</li>
+      <li>Stamina: {{ stamina }}</li>
+      <li>Energy: {{ energy }}</li>
+    </ul>
+  </div>
+</body>
+</HTML>
